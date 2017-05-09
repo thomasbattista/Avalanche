@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

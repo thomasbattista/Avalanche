@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/stalactite_bigger_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-xhdpi/stalactite_bigger_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/stalactite_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-xhdpi/stalactite_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/icicle_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-xhdpi/icicle_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/player_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-xhdpi/player_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_name.png",
+        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/stalactite_bigger_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-xhdpi/stalactite_bigger_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_name.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/player_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-xhdpi/player_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/icicle_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-xhdpi/icicle_image.png"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-xhdpi/stalactite_image.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-xhdpi/stalactite_image.png"
+    }
+]
