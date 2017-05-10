@@ -10,19 +10,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private SeekBar seekBar;
     private int difficulty=15;
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button button = (Button) findViewById(R.id.start_button);
-        TextView textView = (TextView) findViewById(R.id.score_text_view);
+        final Button button = (Button) findViewById(R.id.high_score_button);
+        textView = (TextView) findViewById(R.id.score_text_view);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -49,10 +49,24 @@ public class MainActivity extends AppCompatActivity {
             //Toast.makeText(getApplicationContext(), "difficulty: " +  difficulty, Toast.LENGTH_SHORT).show();
         });
 
+        updateTextView();
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+        updateTextView();
+    }
+
+    private void updateTextView()
+    {
         SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
         int myHighScore = prefs.getInt("HighScore", 0);
+        int myDifficulty = prefs.getInt("Difficulty", 0);
 
-        textView.setText("Score: " + Scores.getScore() + "\nHigh score: " + myHighScore);
+        textView.setText("Score: " + Scores.getScore() + " Difficulty: " + Scores.getDifficulty() + "\nHigh score: " + myHighScore + " Difficulty: " + myDifficulty);
     }
 
     public void startGame(View v)
@@ -60,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         //TextView textView = (TextView) findViewById(R.id.score_text_view);
         //textView.setText("Testing\ntesting");
         Scores.incrementScore();
-        difficulty = difficulty+3;
         Scores.setDifficulty(difficulty);
         Intent intent = new Intent(this, GameActivity.class);
         startActivity(intent);

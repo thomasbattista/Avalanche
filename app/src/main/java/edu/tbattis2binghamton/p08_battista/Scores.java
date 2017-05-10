@@ -30,8 +30,6 @@ public class Scores
         if (score > highScore)
         {
             highScore++;
-
-
         }
     }
 
@@ -44,6 +42,7 @@ public class Scores
         {
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("HighScore", highScore);
+            editor.putInt("Difficulty", difficulty);
             editor.commit();
         }
     }

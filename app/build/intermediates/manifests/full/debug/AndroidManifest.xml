@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="edu.tbattis2binghamton.p08_battista.GameActivity" />
+        <activity android:name="edu.tbattis2binghamton.p08_battista.HighScoreActivity" />
     </application>
 
 </manifest>

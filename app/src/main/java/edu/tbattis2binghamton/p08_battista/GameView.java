@@ -1,5 +1,8 @@
 package edu.tbattis2binghamton.p08_battista;
 
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -39,6 +42,7 @@ public class GameView extends SurfaceView implements Runnable {
 
     public GameView(Context context) {
         super(context);
+        //super.
 
         con = context;
         int screenWidth =  Resources.getSystem().getDisplayMetrics().widthPixels;
@@ -52,7 +56,7 @@ public class GameView extends SurfaceView implements Runnable {
         icicles = new ArrayList<Icicle>(15);
         double prevSpeed=0;
         double currSpeed=0;
-        int difficulty = Scores.getDifficulty();
+        int difficulty = Scores.getDifficulty()+3;
         //Toast.makeText(con,  "Height: " + ((r.nextInt(80) + 50)),Toast.LENGTH_SHORT).show();
         for (int i=0; i<15;i++)
         {
@@ -97,8 +101,14 @@ public class GameView extends SurfaceView implements Runnable {
 
                 //Toast.makeText(con,  "GAME OVER!",Toast.LENGTH_SHORT).show();
                 Scores.updateHighScore(con);
-                Intent intent = new Intent(con, MainActivity.class);
-                con.startActivity(intent);
+                //Intent intent = new Intent(con, MainActivity.class);
+                //con.startActivity(intent);
+                //ActivityManager am = (ActivityManager)con.getSystemService(Context.ACTIVITY_SERVICE);
+                //am.getR
+                Activity activity = (Activity) con;
+                activity.finish();
+
+                //onBackPressed();
 
             }
         }

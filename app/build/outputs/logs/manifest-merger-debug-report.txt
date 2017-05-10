@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidM
 		INJECTED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml
 		INJECTED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] /home/thomas/.android/build-cache/b6084cc07094a432e9fb34ef30d503fdd43e27a7/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] /home/thomas/.android/build-cache/70622d71901ae58b62ee3241be0c79a5d8518272/output/AndroidManifest.xml:25:5-20
@@ -49,9 +49,13 @@ ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidM
 	android:name
 		ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:15:27-74
 activity#edu.tbattis2binghamton.p08_battista.GameActivity
-ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:18:9-59
+ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:18:9-50
 	android:name
 		ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:18:19-47
+activity#edu.tbattis2binghamton.p08_battista.HighScoreActivity
+ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:19:9-64
+	android:name
+		ADDED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml:19:19-52
 uses-sdk
 INJECTED from /home/thomas/AndroidStudioProjects/p08-battista/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/AndroidManifest.xml:21:5-23:78
