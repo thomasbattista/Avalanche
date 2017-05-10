@@ -13,6 +13,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Random;
 
+
+
 /**
  * Created by thomas on 3/23/17.
  */
@@ -50,14 +52,16 @@ public class GameView extends SurfaceView implements Runnable {
         icicles = new ArrayList<Icicle>(15);
         double prevSpeed=0;
         double currSpeed=0;
+        int difficulty = Scores.getDifficulty();
         //Toast.makeText(con,  "Height: " + ((r.nextInt(80) + 50)),Toast.LENGTH_SHORT).show();
         for (int i=0; i<15;i++)
         {
-            currSpeed = r.nextInt(45) + 45;
-            while ( Math.abs(screenHeight/currSpeed - screenHeight/prevSpeed) <=3)
-                currSpeed = r.nextInt(80) + 30;
+            currSpeed = r.nextInt(difficulty*3) + difficulty*3;
+            //currSpeed = r.nextInt(45) + 45;
+            while ( Math.abs(screenHeight/currSpeed - screenHeight/prevSpeed) <= (difficulty/10)+2)
+                currSpeed = r.nextInt(difficulty*5) + difficulty*2;
 
-            icicles.add(new Icicle(context,(i*screenWidth/13)+10, screenHeight/currSpeed)); // set 7 to inceace every minute
+            icicles.add(new Icicle(context,(i*screenWidth/13)+10, currSpeed/5.0)); // set 7 to inceace every minute
             prevSpeed = currSpeed;
             //icicles.add(new Icicle(context,i*10,1));
         }

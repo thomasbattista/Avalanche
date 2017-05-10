@@ -82,7 +82,7 @@ public class Icicle {
         //if (speedIn <0)
           //  velocity = -1;
         //else
-            velocity = (speedIn);
+        velocity = (speedIn);
         x = xIn;
 
         imageWidth = screenWidth/23;

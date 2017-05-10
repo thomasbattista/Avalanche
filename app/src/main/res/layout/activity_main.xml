@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -30,6 +31,19 @@
         tools:text="Score = 0"
         android:layout_above="@+id/start_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="36dp"
-        android:textSize="30sp" />
+        android:layout_marginBottom="36dp" />
+
+    <SeekBar
+        style="@android:style/Widget.DeviceDefault.SeekBar"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="10"
+        android:id="@+id/level_bar"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="fill_parent"
+        android:clickable="false" />
 </RelativeLayout>

@@ -11,6 +11,18 @@ public class Scores
 {
     private static int score=0;
     private static int highScore=0;
+    private static int difficulty=15;
+
+
+    public static void setDifficulty(int difficultyIn)
+    {
+       difficulty = difficultyIn;
+    }
+
+    public static int getDifficulty()
+    {
+        return difficulty;
+    }
 
     public static void incrementScore()
     {
