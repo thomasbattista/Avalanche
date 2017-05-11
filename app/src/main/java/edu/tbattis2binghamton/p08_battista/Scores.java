@@ -28,6 +28,7 @@ public class Scores
     public static void setUp()
     {
         stringSet = new HashSet<String>();
+        stringSet.add("0");
     }
 
     public static void setDifficulty(int difficultyIn)
@@ -52,24 +53,32 @@ public class Scores
     public static void updateHighScore(Context context)
     {
         SharedPreferences prefs = context.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+
+        if (score > prefs.getInt("HighScore",Context.MODE_PRIVATE))
+        {
+            editor.putInt("HighScore",score);
+            editor.putInt("HighScoreDifficulty",difficulty);
+        }
 
         Set<String> set = prefs.getStringSet("ScoreList", null);
         ArrayList<Integer> highScoreList = new  ArrayList<Integer>(10);
-        for (String s : set)
+
+        if (set != null)
         {
-            try
+            for (String s : set)
             {
-                highScoreList.add(Integer.parseInt(s.substring(0,s.indexOf('\t'))));
-            }
-            catch (StringIndexOutOfBoundsException e)
-            {
-                highScoreList.add(Integer.parseInt(s));
+                try {
+                    highScoreList.add(Integer.parseInt(s.substring(0, s.indexOf('\t'))));
+                } catch (StringIndexOutOfBoundsException e) {
+                    highScoreList.add(Integer.parseInt(s));
+                }
+
             }
 
+
+            Collections.sort(highScoreList);
         }
-
-        Collections.sort(highScoreList);
-
         if (highScoreList.size() < 10 || highScore > highScoreList.get(0))
         {
             if (highScoreList.size() == 10)
@@ -82,35 +91,23 @@ public class Scores
        // ArrayList<String> highScoreStringList = new  ArrayList<String>(10);
         for (Integer i : highScoreList)
         {
-            try
-            {
+            //try
+           // {
                 stringSet.add( Integer.toString(i));// + "\t" + difficulty);
-            }
-            catch (IndexOutOfBoundsException e)
-            {
+           // }
+           // catch (IndexOutOfBoundsException e)
+           // {
                 //throw new InputMismatchException();
-                break;
-            }
+             //   break;
+           // }
         }
 
 
         //stringSet.addAll(highScoreStringList);
-        SharedPreferences.Editor editor = prefs.edit();
+
         editor.putStringSet("ScoreList", stringSet);
         editor.commit();
-
-
-
-        //String[] HighScores = new String[10];
-        /*if (highScore > oldHighScore)
-        {
-            SharedPreferences.Editor editor = prefs.edit();
-
-
-            editor.putInt("HighScore", highScore);
-            editor.putInt("Difficulty", difficulty);
-            editor.commit();
-        }*/
+        
     }
 
     public static Set<String> getHighScores()

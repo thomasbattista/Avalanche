@@ -32,10 +32,27 @@ public class HighScoreActivity extends AppCompatActivity {
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
 
-        Scores.updateHighScore(this);
+
+            Scores.updateHighScore(this);
+
 
         mListView = (ListView) findViewById(R.id.list_view_scores);
 
+        updateScores();
+
+
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+        updateScores();
+    }
+
+    private void updateScores()
+    {
         SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
 
         Set<String> set = prefs.getStringSet("ScoreList", null);
@@ -55,7 +72,7 @@ public class HighScoreActivity extends AppCompatActivity {
 
         Collections.sort(highScoreList, Collections.<Integer>reverseOrder());
 
-        final ArrayList<String> scoresList = new ArrayList<String>(10);
+        ArrayList<String> scoresList = new ArrayList<String>(10);
 
         for (Integer i : highScoreList)
         {
@@ -64,7 +81,6 @@ public class HighScoreActivity extends AppCompatActivity {
 
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, scoresList);
         mListView.setAdapter(adapter);
-
-
     }
+
 }

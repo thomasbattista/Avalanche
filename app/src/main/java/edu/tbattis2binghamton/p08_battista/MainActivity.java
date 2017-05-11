@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     {
         SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
         int myHighScore = prefs.getInt("HighScore", 0);
-        int myDifficulty = prefs.getInt("Difficulty", 0);
+        int myDifficulty = prefs.getInt("HighScoreDifficulty", 0);
 
         textView.setText("Score: " + Scores.getScore() + " Difficulty: " + Scores.getDifficulty() + "\nHigh score: " + myHighScore + " Difficulty: " + myDifficulty);
     }
