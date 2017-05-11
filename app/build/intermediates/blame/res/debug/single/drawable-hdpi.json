@@ -28,6 +28,10 @@
         "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/stalactite_bigger_image.png"
     },
     {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/icicle_image2.png",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/icicle_image2.png"
+    },
+    {
         "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/player_image.png",
         "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/player_image.png"
     },

@@ -32,7 +32,8 @@
         style="@android:style/Widget.Button.Small"
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp" />
+        android:layout_marginBottom="17dp"
+        android:onClick="goToHighScores" />
 
     <TextView
         android:text="TextView"

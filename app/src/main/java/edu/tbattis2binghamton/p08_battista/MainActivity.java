@@ -18,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button button = (Button) findViewById(R.id.high_score_button);
+        final Button button = (Button) findViewById(R.id.button);
+        final Button hsButton = (Button) findViewById(R.id.high_score_button);
         textView = (TextView) findViewById(R.id.score_text_view);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
         getWindow().getDecorView().setSystemUiVisibility(
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             //Toast.makeText(getApplicationContext(), "difficulty: " +  difficulty, Toast.LENGTH_SHORT).show();
         });
 
+        Scores.setUp();
         updateTextView();
     }
 
@@ -76,6 +79,15 @@ public class MainActivity extends AppCompatActivity {
         Scores.incrementScore();
         Scores.setDifficulty(difficulty);
         Intent intent = new Intent(this, GameActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToHighScores(View v)
+    {
+        //TextView textView = (TextView) findViewById(R.id.score_text_view);
+        //textView.setText("Testing\ntesting");
+
+        Intent intent = new Intent(this, HighScoreActivity.class);
         startActivity(intent);
     }
 }

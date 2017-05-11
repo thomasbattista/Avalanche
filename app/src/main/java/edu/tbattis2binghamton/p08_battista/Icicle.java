@@ -54,7 +54,7 @@ public class Icicle {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inJustDecodeBounds = true;
 
-        icicleBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.icicle_image, options);
+        icicleBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.icicle_image2, options);
         //set width to 23rd of screen
         // inbetween 38th
         imageWidth = options.outWidth;
@@ -68,7 +68,7 @@ public class Icicle {
         //velocity = 0;
 
         //Getting bitmap from drawable resource
-        Bitmap unscaledBitmap = BitmapFactory.decodeResource(context.getResources(),  R.drawable.icicle_image);
+        Bitmap unscaledBitmap = BitmapFactory.decodeResource(context.getResources(),  R.drawable.icicle_image2);
         icicleBitmap = Bitmap.createScaledBitmap(unscaledBitmap, screenWidth/22, screenHeight/6, true);
 
         unscaledBitmap = BitmapFactory.decodeResource(context.getResources(),  R.drawable.stalactite_image);
