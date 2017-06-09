@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private SeekBar seekBar;
     private int difficulty=15;
     TextView textView;
+    TextView difficultyTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.button);
         final Button hsButton = (Button) findViewById(R.id.high_score_button);
         textView = (TextView) findViewById(R.id.score_text_view);
+        difficultyTextView = (TextView) findViewById(R.id.difficulty_text_num);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
             {
                 difficulty = progress;
+                difficultyTextView.setText(progress+"");
             }
 
 
@@ -51,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
             //Toast.makeText(getApplicationContext(), "difficulty: " +  difficulty, Toast.LENGTH_SHORT).show();
         });
 
-        Scores.setUp();
         updateTextView();
     }
 
@@ -61,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         updateTextView();
+    }
+
+    private void updateDifficulty()
+    {
+
     }
 
     private void updateTextView()

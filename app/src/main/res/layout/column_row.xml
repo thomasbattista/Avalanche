@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/score_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="33.3"
+        android:text="Score"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/difficulty_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="33.3"
+        android:text="Difficulty"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="33.3"
+        android:text="Date"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAlignment="textStart" />
 
 </LinearLayout>

@@ -1,15 +1,19 @@
 [
     {
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/column_row.xml",
+        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/layout/column_row.xml"
+    },
+    {
         "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
@@ -24,16 +28,16 @@
         "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_screen_content_include.xml"
+        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/notification_action.xml"
     },
     {
         "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/notification_action.xml"
+        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/thomas/.android/build-cache/b9108529e018a8f94083d2a08ba29abeaf8da90d/output/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",

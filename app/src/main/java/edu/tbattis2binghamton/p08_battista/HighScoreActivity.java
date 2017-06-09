@@ -9,8 +9,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
+import java.util.Date;
 import java.util.Set;
 
 public class HighScoreActivity extends AppCompatActivity {
@@ -30,10 +33,10 @@ public class HighScoreActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
+        //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE);
 
 
-            Scores.updateHighScore(this);
+            //Scores.updateHighScore(this);
 
 
         mListView = (ListView) findViewById(R.id.list_view_scores);
@@ -55,8 +58,25 @@ public class HighScoreActivity extends AppCompatActivity {
     {
         SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
 
-        Set<String> set = prefs.getStringSet("ScoreList", null);
-        ArrayList<Integer> highScoreList = new  ArrayList<Integer>(10);
+        String currString = prefs.getString("ScoreList", null);
+
+        if (currString != null)
+        {
+            ArrayList<String> scoresList = HighScoreConverter.toArrayList(currString);
+
+            scoresList.add(0,"Score\tDifficulty\tDate");
+            //ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, scoresList);
+            ScoreListAdapter adapter = new ScoreListAdapter(this, R.layout.column_row, scoresList);
+            mListView.setAdapter(adapter);
+        }
+
+        //ScoreListAdapter adapter = new ScoreListAdapter(this, R.layout.column_row, scores);
+
+        /*if (scoresList.size() >0)
+        {
+
+        }*/
+        /* Scores.getScore() + "\t" + Scores.getDifficulty() + "\t" + timeStamp
         for (String s : set)
         {
             try
@@ -72,15 +92,17 @@ public class HighScoreActivity extends AppCompatActivity {
 
         Collections.sort(highScoreList, Collections.<Integer>reverseOrder());
 
-        ArrayList<String> scoresList = new ArrayList<String>(10);
+        ArrayList<String> scoresList = new ArrayList<String>(NUM_SCORES);
 
         for (Integer i : highScoreList)
         {
             scoresList.add(Integer.toString(i));
         }
+*/
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, scoresList);
-        mListView.setAdapter(adapter);
+
+
+        //convert string to ArrayList<String>
     }
 
 }

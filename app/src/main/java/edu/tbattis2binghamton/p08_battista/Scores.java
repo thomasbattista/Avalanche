@@ -22,14 +22,7 @@ public class Scores
     private static int highScore=0;
     private static int difficulty=15;
 
-    private static Set<String> stringSet;
 
-
-    public static void setUp()
-    {
-        stringSet = new HashSet<String>();
-        stringSet.add("0");
-    }
 
     public static void setDifficulty(int difficultyIn)
     {
@@ -53,67 +46,26 @@ public class Scores
     public static void updateHighScore(Context context)
     {
         SharedPreferences prefs = context.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+
         SharedPreferences.Editor editor = prefs.edit();
 
-        if (score > prefs.getInt("HighScore",Context.MODE_PRIVATE))
+        int oldHS = prefs.getInt("HighScore",Context.MODE_PRIVATE);
+
+        if (score > oldHS)
         {
             editor.putInt("HighScore",score);
             editor.putInt("HighScoreDifficulty",difficulty);
         }
 
-        Set<String> set = prefs.getStringSet("ScoreList", null);
-        ArrayList<Integer> highScoreList = new  ArrayList<Integer>(10);
+        String highScoreList = prefs.getString("ScoreList", null);
+        if (highScoreList == null)
+            highScoreList = "";
+        highScoreList = HighScoreConverter.addScore(highScoreList);
 
-        if (set != null)
-        {
-            for (String s : set)
-            {
-                try {
-                    highScoreList.add(Integer.parseInt(s.substring(0, s.indexOf('\t'))));
-                } catch (StringIndexOutOfBoundsException e) {
-                    highScoreList.add(Integer.parseInt(s));
-                }
+        editor.putString("ScoreList", highScoreList);
+        editor.commit();
 
             }
-
-
-            Collections.sort(highScoreList);
-        }
-        if (highScoreList.size() < 10 || highScore > highScoreList.get(0))
-        {
-            if (highScoreList.size() == 10)
-                highScoreList.remove(0);
-            highScoreList.add(highScore);
-
-        }
-
-        stringSet.clear();
-       // ArrayList<String> highScoreStringList = new  ArrayList<String>(10);
-        for (Integer i : highScoreList)
-        {
-            //try
-           // {
-                stringSet.add( Integer.toString(i));// + "\t" + difficulty);
-           // }
-           // catch (IndexOutOfBoundsException e)
-           // {
-                //throw new InputMismatchException();
-             //   break;
-           // }
-        }
-
-
-        //stringSet.addAll(highScoreStringList);
-
-        editor.putStringSet("ScoreList", stringSet);
-        editor.commit();
-        
-    }
-
-    public static Set<String> getHighScores()
-    {
-        return stringSet;
-    }
 
     public static void resetScore()
     {

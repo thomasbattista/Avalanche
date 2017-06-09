@@ -50,13 +50,34 @@
     <SeekBar
         style="@android:style/Widget.DeviceDefault.SeekBar"
         android:layout_height="wrap_content"
-        android:max="20"
-        android:progress="10"
+        android:max="30"
+        android:progress="15"
         android:id="@+id/level_bar"
         android:layout_width="fill_parent"
         android:clickable="false"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Select Level: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/level_bar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/select_level"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/difficulty_text_num"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="24sp"
+        android:layout_above="@+id/level_bar"
+        android:layout_toRightOf="@+id/high_score_button"
+        android:layout_toEndOf="@+id/high_score_button" />
 
 </RelativeLayout>

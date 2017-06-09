@@ -99,17 +99,9 @@ public class GameView extends SurfaceView implements Runnable {
                     && (p.getBottom() > player.getY()) )
             {
 
-                //Toast.makeText(con,  "GAME OVER!",Toast.LENGTH_SHORT).show();
                 Scores.updateHighScore(con);
-                //Intent intent = new Intent(con, MainActivity.class);
-                //con.startActivity(intent);
-                //ActivityManager am = (ActivityManager)con.getSystemService(Context.ACTIVITY_SERVICE);
-                //am.getR
                 Activity activity = (Activity) con;
                 activity.finish();
-
-                //onBackPressed();
-
             }
         }
         //check if intersect
