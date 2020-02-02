@@ -1,5 +1,6 @@
 package edu.tbattis2binghamton.p08_battista;
 
+<<<<<<< HEAD
 import android.util.Log;
 
 import java.io.BufferedReader;
@@ -15,10 +16,13 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Set;
 
+=======
+>>>>>>> f5f1232fe5b5aedc4e3623265e74f2d0c05ccc7b
 /**
  * Created by thomas on 5/25/17.
  */
 
+<<<<<<< HEAD
 
 
 public class HighScoreConverter
@@ -123,4 +127,7 @@ public class HighScoreConverter
 
         return stringArrayList;
     }
+=======
+public class HighScoreConverter {
+>>>>>>> f5f1232fe5b5aedc4e3623265e74f2d0c05ccc7b
 }

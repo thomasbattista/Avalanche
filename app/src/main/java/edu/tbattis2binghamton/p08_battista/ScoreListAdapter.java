@@ -1,5 +1,6 @@
 package edu.tbattis2binghamton.p08_battista;
 
+<<<<<<< HEAD
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
@@ -11,10 +12,13 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+=======
+>>>>>>> f5f1232fe5b5aedc4e3623265e74f2d0c05ccc7b
 /**
  * Created by thomas on 6/8/17.
  */
 
+<<<<<<< HEAD
 public class ScoreListAdapter extends ArrayAdapter<String> {
 
     private static final String TAG = "ScoreListAdapter";
@@ -61,4 +65,7 @@ public class ScoreListAdapter extends ArrayAdapter<String> {
 
         return convertView;
     }
+=======
+public class ScoreListAdapter {
+>>>>>>> f5f1232fe5b5aedc4e3623265e74f2d0c05ccc7b
 }
