@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -13,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.Date;
 import java.util.Set;
 
@@ -58,11 +60,16 @@ public class HighScoreActivity extends AppCompatActivity {
     {
         SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
 
-        String currString = prefs.getString("ScoreList", null);
+        Object currString = prefs.getStringSet("ScoreListSet", null);
+
+        if (currString instanceof HashSet)
+        {
+            Log.d("TAG", "Hashset");
+        }
 
         if (currString != null)
         {
-            ArrayList<String> scoresList = HighScoreConverter.toArrayList(currString);
+            ArrayList<String> scoresList = HighScoreConverter.toArrayList((HashSet)currString);
 
             scoresList.add(0,"Score\tDifficulty\tDate");
             //ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, scoresList);

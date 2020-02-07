@@ -1,46 +1,70 @@
 [
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_name.png",
-        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/ic_action_name.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_name.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_name.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/ic_action_name.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\src\\main\\res\\drawable-hdpi\\stalactite_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/stalactite_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/stalactite_image.png"
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_name.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/player_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/player_image.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_bigger_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\src\\main\\res\\drawable-hdpi\\stalactite_bigger_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/stalactite_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/stalactite_image.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_name.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/stalactite_bigger_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/stalactite_bigger_image.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\src\\main\\res\\drawable-hdpi\\player_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/stalactite_bigger_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/stalactite_bigger_image.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icicle_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\icicle_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/icicle_image2.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/icicle_image2.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icicle_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p05-battista\\app\\src\\main\\res\\drawable-hdpi\\icicle_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/player_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/player_image.png"
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icicle_image.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\icicle_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p08-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/icicle_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p08-battista/app/src/main/res/drawable-hdpi/icicle_image.png"
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_bigger_image.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\stalactite_bigger_image.png"
     },
     {
-        "merged": "/home/thomas/AndroidStudioProjects/p05-battista/app/build/intermediates/res/merged/debug/drawable-hdpi/icicle_image.png",
-        "source": "/home/thomas/AndroidStudioProjects/p05-battista/app/src/main/res/drawable-hdpi/icicle_image.png"
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icicle_image2.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\icicle_image2.png"
+    },
+    {
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\stalactite_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_image.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\player_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_image.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\stalactite_image.png"
+    },
+    {
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\player_image.png"
+    },
+    {
+        "merged": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stalactite_bigger_image.png",
+        "source": "C:\\home\\thomas\\AndroidStudioProjects\\p08-battista\\app\\src\\main\\res\\drawable-hdpi\\stalactite_bigger_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icicle_image2.png",
+        "source": "C:\\Users\\Thomas\\Documents\\Android Studio\\Avalanche\\app\\src\\main\\res\\drawable-hdpi\\icicle_image2.png"
     }
 ]

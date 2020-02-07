@@ -3,6 +3,7 @@ package edu.tbattis2binghamton.p08_battista;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -49,7 +50,7 @@ public class Scores
 
         SharedPreferences.Editor editor = prefs.edit();
 
-        int oldHS = prefs.getInt("HighScore",Context.MODE_PRIVATE);
+        int oldHS = prefs.getInt("HighScore", Context.MODE_PRIVATE);
 
         if (score > oldHS)
         {
@@ -57,15 +58,40 @@ public class Scores
             editor.putInt("HighScoreDifficulty",difficulty);
         }
 
-        String highScoreList = prefs.getString("ScoreList", null);
-        if (highScoreList == null)
-            highScoreList = "";
-        highScoreList = HighScoreConverter.addScore(highScoreList);
+        Set<String> highScoreSet = null;
+        String highScoreList = "";
+        try
+        {
+            highScoreSet = prefs.getStringSet("ScoreListSet", null);
+        }
+        catch (Exception e)
+        { }
 
-        editor.putString("ScoreList", highScoreList);
-        editor.commit();
+        HashSet<String> hashSet = new HashSet<String>();
 
-            }
+        if (highScoreSet == null)
+        {
+            //highScoreList = "";
+            highScoreSet = new HashSet<String>();
+        }
+        for (String str : highScoreSet)
+        {
+            Log.d("S.uHS highScoreSet", str);
+            //highScoreList += str + "\n";
+            hashSet.add(str);
+        }
+
+        hashSet = HighScoreConverter.addScore(hashSet);
+
+        for (String str : hashSet )
+        {
+            Log.d("Scores.updateHighScore", str);
+        }
+
+        editor.putStringSet("ScoreListSet", hashSet);
+        editor.apply();
+
+    }
 
     public static void resetScore()
     {

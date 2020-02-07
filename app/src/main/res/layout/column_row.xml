@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-<<<<<<< HEAD
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:weightSum="100">
@@ -23,7 +22,8 @@
         android:layout_weight="33.3"
         android:text="Difficulty"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:layout_gravity="start"/>
 
     <TextView
         android:id="@+id/date_tv"
@@ -32,11 +32,8 @@
         android:layout_weight="33.3"
         android:text="Date"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:layout_gravity="start"/>
+
 
 </LinearLayout>
-=======
-    android:layout_height="match_parent">
-
-</LinearLayout>
->>>>>>> f5f1232fe5b5aedc4e3623265e74f2d0c05ccc7b

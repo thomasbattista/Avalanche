@@ -39,7 +39,7 @@ public class Player{
     {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inJustDecodeBounds = true;
-        R
+
         bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.player_image, options);
         imageWidth = options.outWidth;
         imageHeight = options.outHeight;
