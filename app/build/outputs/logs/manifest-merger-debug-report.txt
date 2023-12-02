@@ -1,77 +1,106 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\c2053ddce4a839412905e295982541c5\transformed\animated-vector-drawable-25.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\0ec30b39c8cf71100e2dd256473c2f7d\transformed\support-vector-drawable-25.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\f39a4ab4b861665485950a42ed6a0c6f\transformed\support-v4-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\387bd9fa04d9c4f9262c170a0660d71e\transformed\support-fragment-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\37e30f3dee6419b85c4835b89ba70767\transformed\support-media-compat-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\61353d923cdee862618d55eee351b735\transformed\support-core-utils-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\abfd27614f3195f58792d9615cdaf981\transformed\support-core-ui-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\139d2e851b4e03ced088df4dcdc3b143\transformed\support-compat-25.2.0\AndroidManifest.xml:17:1-27:12
 	package
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:2:11-69
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:5:5-20:19
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.android\build-cache\fbb581064ee5252b0e44b13cc2edfdf96cbd7d27\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.android\build-cache\18de1dee5d99901ed9c7c66d051cb3fcc4f45872\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.android\build-cache\95143c1787b8a1a42fd0712a25abf199f810a5b9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.android\build-cache\ef2d46c19280f390d561052763d5e92a05d378c9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.android\build-cache\4f3b8d2b4b3f3174bad04c78ef0995a3d5a26891\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.android\build-cache\cc67844e888b16eae6d5aba966c3b8841bd5c577\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.android\build-cache\f3751126b095918ee14dd28e1a995a44cf9517fe\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.android\build-cache\52dd215d88bfd1049ecdd9fc05d42a8a2dee8d88\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.android\build-cache\6916bc16d6aeb7a1b73fded3518907a756574e5a\output\AndroidManifest.xml:25:5-20
-	android:label
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:8:9-41
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:4:5-19:19
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:4:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\c2053ddce4a839412905e295982541c5\transformed\animated-vector-drawable-25.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\c2053ddce4a839412905e295982541c5\transformed\animated-vector-drawable-25.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\0ec30b39c8cf71100e2dd256473c2f7d\transformed\support-vector-drawable-25.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\0ec30b39c8cf71100e2dd256473c2f7d\transformed\support-vector-drawable-25.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\f39a4ab4b861665485950a42ed6a0c6f\transformed\support-v4-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\f39a4ab4b861665485950a42ed6a0c6f\transformed\support-v4-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\387bd9fa04d9c4f9262c170a0660d71e\transformed\support-fragment-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\387bd9fa04d9c4f9262c170a0660d71e\transformed\support-fragment-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\37e30f3dee6419b85c4835b89ba70767\transformed\support-media-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\37e30f3dee6419b85c4835b89ba70767\transformed\support-media-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\61353d923cdee862618d55eee351b735\transformed\support-core-utils-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\61353d923cdee862618d55eee351b735\transformed\support-core-utils-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\abfd27614f3195f58792d9615cdaf981\transformed\support-core-ui-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\abfd27614f3195f58792d9615cdaf981\transformed\support-core-ui-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\139d2e851b4e03ced088df4dcdc3b143\transformed\support-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\139d2e851b4e03ced088df4dcdc3b143\transformed\support-compat-25.2.0\AndroidManifest.xml:25:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
 	android:supportsRtl
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:9:9-35
-	android:allowBackup
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:8:9-35
+	android:label
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:7:9-41
 	android:icon
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:9:9-40
 activity#edu.tbattis2binghamton.p08_battista.MainActivity
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:10:9-16:20
 	android:name
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:11:19-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:12:13-16:29
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:10:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:11:13-15:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:12:17-69
 	android:name
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:12:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:14:27-74
 activity#edu.tbattis2binghamton.p08_battista.GameActivity
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:18:9-50
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:17:9-50
 	android:name
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:17:19-47
 activity#edu.tbattis2binghamton.p08_battista.HighScoreActivity
-ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:19:9-64
+ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml:19:19-52
+		ADDED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml:18:19-52
 uses-sdk
-INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.android\build-cache\fbb581064ee5252b0e44b13cc2edfdf96cbd7d27\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.android\build-cache\18de1dee5d99901ed9c7c66d051cb3fcc4f45872\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.android\build-cache\95143c1787b8a1a42fd0712a25abf199f810a5b9\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.android\build-cache\ef2d46c19280f390d561052763d5e92a05d378c9\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.android\build-cache\4f3b8d2b4b3f3174bad04c78ef0995a3d5a26891\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.android\build-cache\cc67844e888b16eae6d5aba966c3b8841bd5c577\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.android\build-cache\f3751126b095918ee14dd28e1a995a44cf9517fe\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.android\build-cache\52dd215d88bfd1049ecdd9fc05d42a8a2dee8d88\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.android\build-cache\6916bc16d6aeb7a1b73fded3518907a756574e5a\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\c2053ddce4a839412905e295982541c5\transformed\animated-vector-drawable-25.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\c2053ddce4a839412905e295982541c5\transformed\animated-vector-drawable-25.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\0ec30b39c8cf71100e2dd256473c2f7d\transformed\support-vector-drawable-25.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\0ec30b39c8cf71100e2dd256473c2f7d\transformed\support-vector-drawable-25.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\f39a4ab4b861665485950a42ed6a0c6f\transformed\support-v4-25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\f39a4ab4b861665485950a42ed6a0c6f\transformed\support-v4-25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\387bd9fa04d9c4f9262c170a0660d71e\transformed\support-fragment-25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\387bd9fa04d9c4f9262c170a0660d71e\transformed\support-fragment-25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\37e30f3dee6419b85c4835b89ba70767\transformed\support-media-compat-25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\37e30f3dee6419b85c4835b89ba70767\transformed\support-media-compat-25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\61353d923cdee862618d55eee351b735\transformed\support-core-utils-25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\61353d923cdee862618d55eee351b735\transformed\support-core-utils-25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\abfd27614f3195f58792d9615cdaf981\transformed\support-core-ui-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\abfd27614f3195f58792d9615cdaf981\transformed\support-core-ui-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\139d2e851b4e03ced088df4dcdc3b143\transformed\support-compat-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\139d2e851b4e03ced088df4dcdc3b143\transformed\support-compat-25.2.0\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.android\build-cache\fbb581064ee5252b0e44b13cc2edfdf96cbd7d27\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Thomas\.gradle\caches\transforms-3\38833b3e6bec1de51e79a4981ee9b75f\transformed\appcompat-v7-25.2.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Thomas\Documents\Android Studio\Avalanche\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thomas\StudioProjects\Avalanche\app\src\main\AndroidManifest.xml

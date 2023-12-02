@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Avalanche.iml" filepath="$PROJECT_DIR$/Avalanche.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Avalanche.iml" filepath="$PROJECT_DIR$/.idea/modules/Avalanche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Avalanche.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Avalanche.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Avalanche.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Avalanche.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Avalanche.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Avalanche.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Avalanche.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Avalanche.app.unitTest.iml" />
     </modules>
   </component>
 </project>
